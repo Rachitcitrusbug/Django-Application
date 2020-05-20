@@ -13,14 +13,17 @@
     <section class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-12 col-md-6 col-lg-4">
-                <form class="form-container" method="POST" action="login">
+                <form class="form-container" method="POST" action="logout">
+                    {% csrf_token %}
                     <div class="form-group">
                         <div class="text-center">
                             <img src="{% static 'img/google.png' %}" class="logo">
                             <br><br>
                             <h4>Welcome</h4>
+                            <h4>To</h4>
+                            <h4>Google</h4>
                             <br>
-                            <h4>User</h4>
+                            <h2>{{ user.first_name }} {{ user.last_name }}</h2>
                             <br>
                             <h5>How are you today?</h5>
                         </div>
