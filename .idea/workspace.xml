@@ -6,7 +6,9 @@
       <change beforePath="$PROJECT_DIR$/gglreg/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/gglreg/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gglreg/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/gglreg/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myfirstproject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myfirstproject/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/expire.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/expire.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +92,8 @@
       <option name="presentableId" value="Default" />
       <updated>1589866600894</updated>
       <workItem from="1589866602087" duration="19402000" />
-      <workItem from="1589948751467" duration="21285000" />
+      <workItem from="1589948751467" duration="21714000" />
+      <workItem from="1590034656766" duration="24844000" />
     </task>
     <servers />
   </component>

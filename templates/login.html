@@ -26,14 +26,19 @@
                         <div>
                             <input type="email" name="username" id="email" autofocus="on" class="form-control" autocomplete="off"id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email or phone">
                             <span id="showmsg1" class="text-danger"></span>
-                            <br><br>
+                            <br>
                             <input type="password" name="password" class="form-control" id="password" aria-describedby="emailHelp" placeholder="Enter your password" autofocus="on">
                             <span id="showmsg2" class="text-danger"></span>
                             {% for message in messages %}
                                 <span class="text-danger"><b>{{ message }}</b></span>
                             {% endfor %}
-                            <br><br><br>
-
+                            <br>
+                            <div class="row">
+                                <div class="col text-left">
+                                    <a style="text-decoration: none" href="reset_password"><b>Forgot password ?</b></a>
+                                </div>
+                            </div>
+                            <br><br>
                             <small id="emailHelp" class="form-text text-muted pl-1">Not your computer? Use Guest mode to sign in privately.</small>
                             <a style="text-decoration: none" href="https://support.google.com/chrome/answer/6130773?hl=en-GB" target="_blank"><b>Learn more</b></a>
                         </div>

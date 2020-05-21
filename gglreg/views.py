@@ -17,30 +17,30 @@ def signup(request):
     if request.method == 'POST':
         first_name = request.POST['first_name']
         last_name = request.POST['last_name']
-        username = request.POST['username']+'@gmail.com'
+        username = request.POST['username'] + '@gmail.com'
         password1 = request.POST['password1']
         password2 = request.POST['password2']
 
-        if User.objects.filter(username=username).exists():
-            messages.info(request, 'Email address already taken !')
-            return redirect('signup')
+        #if User.objects.filter(username=username).exists():
+            #messages.info(request, 'Email address already taken !')
+            #return redirect('signup')
 
-        else:
-            user = User.objects.create_user(first_name=first_name, last_name=last_name, username=username, password=password1)
-            user.is_active = False
-            user.save()
-            current_site = get_current_site(request)
-            email_subject = 'Activate Your Account'
-            message = render_to_string('email_message.html', {
+        #else:
+        user = User.objects.create_user(first_name=first_name, last_name=last_name, username=username, email=username, password=password1)
+        user.is_active = False
+        user.save()
+        current_site = get_current_site(request)
+        email_subject = 'Activate Your Account'
+        message = render_to_string('email_message.html', {
                 'user': user,
                 'domain': current_site.domain,
                 'uid': urlsafe_base64_encode(force_bytes(user.pk)),
                 'token': account_activation_token.make_token(user),
             })
-            email = EmailMessage(email_subject, message, to=[username])
-            email.send()
-            print("***SUCCESSFULL***")
-            return render(request, 'account.html')
+        email = EmailMessage(email_subject, message, to=[username])
+        email.send()
+        print("***SUCCESSFULL***")
+        return render(request, 'account.html')
             #return redirect('/')
 
     else:
