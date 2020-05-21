@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f38662ab-9211-43d8-a906-4b2fa40b356d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gglreg/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/gglreg/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gglreg/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/gglreg/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myfirstproject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myfirstproject/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/expire.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/expire.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +88,7 @@
       <updated>1589866600894</updated>
       <workItem from="1589866602087" duration="19402000" />
       <workItem from="1589948751467" duration="21714000" />
-      <workItem from="1590034656766" duration="24844000" />
+      <workItem from="1590034656766" duration="25704000" />
     </task>
     <servers />
   </component>
