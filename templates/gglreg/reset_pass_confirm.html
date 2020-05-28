@@ -1,0 +1,52 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Create new password</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'gglreg/css/style.css' %}">
+</head>
+<body>
+    <section class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-6 col-lg-4">
+                <form class="form-container" method="POST">
+                    {% csrf_token %}
+                    <div class="form-group">
+                        <div class="text-center">
+                            <img src="{% static 'gglreg/img/google.png' %}" class="logo">
+                            <br><br>
+                            <h4>Create new password</h4>
+                        </div>
+                            <br>
+                        <div class="text-center">
+                            <input type="password" name="new_password1" class="form-control" autocomplete="new-password" required id="id_new_password1" placeholder="Enter new password" autofocus>
+                            <ul class="text-left">
+                                <li><small>Your password can’t be too similar to your other personal information.</small></li>
+                                <li><small>Your password must contain at least 8 characters.</small></li>
+                                <li><small>Your password can’t be a commonly used password.</small></li>
+                                <li><small>Your password can’t be entirely numeric.</small></li>
+                            </ul>
+                            <br>
+                            <input type="password" name="new_password2" class="form-control" autocomplete="new-password" required id="id_new_password2" placeholder="Confirm new password">
+                        </div>
+                        <br><br><br>
+                        <div class="col text-center">
+                            <button type="submit" class="btn btn-primary btn-md">Change it</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>

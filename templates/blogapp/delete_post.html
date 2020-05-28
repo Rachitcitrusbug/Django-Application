@@ -1,0 +1,31 @@
+{% extends 'blogapp/base.html' %}
+
+{% block title %}
+    Delete The Blog Post
+{% endblock %}
+
+{% block content %}
+
+    {% if user.is_authenticated %}
+        {% if user.id == post.author.id %}
+            <h1>Delete Blog Post</h1>
+            <br><br>
+            <h3>Delete: {{ post.title }}</h3>
+            <br>
+            <div class="form-group">
+                <form method="POST">
+                    {% csrf_token %}
+                    <h3><b>Are you sure?</b></h3>
+                    <br>
+                    <button class="btn btn-secondary">Delete</button>
+                </form>
+            </div>
+        {% else %}
+            <br>
+            <h1>This is not your post, so you can not delete this!</h1>
+        {% endif %}
+    {% else %}
+        <br>
+        <h1>You need to be logged in to delete any post!</h1>
+    {% endif %}
+{% endblock %}

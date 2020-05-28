@@ -1,0 +1,40 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'gglreg/css/style.css' %}">
+</head>
+<body>
+    <section class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-6 col-lg-4">
+                <form class="form-container" action="/signup">
+                    {% csrf_token %}
+                    <div class="form-group">
+                        <div class="text-center">
+                            <img src="{% static 'gglreg/img/google.png' %}" class="logo">
+                            <br><br>
+                            <h4>Oops !!!</h4>
+                            <br>
+                            <h5>The activation link is expired / invalid.</h5>
+                        </div>
+                        <br><br><br><br>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary btn-md">Sign up</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>

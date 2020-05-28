@@ -2,8 +2,219 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f38662ab-9211-43d8-a906-4b2fa40b356d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/blogapp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogapp/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogapp/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogapp/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogapp/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogapp/migrations/0002_post_title_tag.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogapp/migrations/0003_auto_20200525_1107.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogapp/migrations/0004_auto_20200525_1835.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogapp/migrations/0005_auto_20200526_1929.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogapp/migrations/0006_remove_post_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogapp/migrations/0007_post_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogapp/migrations/0008_auto_20200527_1105.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogapp/migrations/0009_auto_20200527_1107.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogapp/migrations/0010_auto_20200527_1248.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogapp/migrations/0011_auto_20200527_1415.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogapp/migrations/0012_auto_20200528_1837.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogapp/migrations/0013_auto_20200528_1844.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogapp/migrations/0014_auto_20200528_1845.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogapp/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogapp/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogapp/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogapp/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogapp/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/1920x1080.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/4273291319-457753-matterhorn-night-sky-snow-stars-switzerland.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/4a9f9310a6845.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/4a9f9310a6845_foNq6SF.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/51194-movies-batman-the-dark-knight-joker.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/53394-movies-batman-the-dark-knight-joker.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/8592346941-553683-batman-heath-ledger-the-dark-knight-the-joker.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/9295328118-602224-minimalistic-music-simple-background-typography.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/99153246044-plexus-atoms-neutrons-electrons-protons.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/Honolulu_Hawaii.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/Honolulu_Hawaii_nS2fQCE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/Italy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/JFL_-_2_-_11022018_-_DESKTOP.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/JFL_-_4_-_11022018_-_DESKTOP.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/Lagos_Portugal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/Lagos_Portugal_VQyKiFZ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/Monument_Valley_Utah.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/Mount_Vesuvius_Italy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/OsumWalls_Desktop_9258461397_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/OsumWalls_Desktop_9258461397_5_6fS8q0j.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/OsumWalls_Desktop_Nightmare.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/Scwyz_Switzerland.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/Scwyz_Switzerland_Night.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/Tarout_Bay_Saudi_Arabia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/U1531072544845.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/Wall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/Wallmax-328350.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/WallpapersGram4k_-_hacker-8k-8p.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/WallpapersGram4k__los-angles-synthwave-4k-wp.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/WallpapersGram4k__los-angles-synthwave-4k-wp_0NBxP6i.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/WallpapersGram4k_dirt_bikes_4917x3278.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/WallpapersGram4k_dirt_bikes_4917x3278_y22NCwk.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/Wild_Shot.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/Wild_Shot_Oie2NZy.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/alone_silhouette_4k_2-1920x1080.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/blue_colorful_splash-1920x1080.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/blue_explosion-1920x1080.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/cohesion-1156942.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/daft-punk-inswall-wid-00008.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/feather_drop-1920x1080.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/iWallpaperPC_59.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/iWallpaperPC_59_QN1RL4E.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/iron_man_minimal_4k-2560x1440.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/iwallpaperPC_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/iwallpaperPC_11_Hg6Jt8y.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/iwallpaperPC_11_b7bddfl.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/iwallpaperPC_11_qPrZPRi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/macbook_pro_color_splash-1920x1080.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/non-376543.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/sample.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/spider_man_game_playstation_4_2018_4k-3840x2160.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/spider_man_selfie_4k_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/storm_trooper_digital_art_4k.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/storm_trooper_digital_art_4k_wZZ26FG.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/blogapp/add_category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/blogapp/add_post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/blogapp/article_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/blogapp/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/blogapp/blog_home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/blogapp/categories.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/blogapp/delete_post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/blogapp/update_post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/BdfFontFile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/BlpImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/BmpImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/BufrStubImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ContainerIO.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/CurImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/DcxImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/DdsImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/EpsImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ExifTags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/FitsStubImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/FliImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/FontFile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/FpxImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/FtexImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/GbrImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/GdImageFile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/GifImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/GimpGradientFile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/GimpPaletteFile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/GribStubImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/Hdf5StubImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/IcnsImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/IcoImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/Image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageChops.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageCms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageColor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageDraw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageDraw2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageEnhance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageFile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageFilter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageFont.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageGrab.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageMath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageMode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageMorph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageOps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImagePalette.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImagePath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageQt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageSequence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageShow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageStat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageTk.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageTransform.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImageWin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/ImtImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/IptcImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/Jpeg2KImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/JpegImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/JpegPresets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/McIdasImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/MicImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/MpegImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/MpoImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/MspImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/PSDraw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/PaletteFile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/PalmImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/PcdImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/PcfFontFile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/PcxImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/PdfImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/PdfParser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/PixarImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/PngImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/PpmImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/PsdImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/PyAccess.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/SgiImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/SpiderImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/SunImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/TarIO.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/TgaImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/TiffImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/TiffTags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/WalImageFile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/WebPImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/WmfImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/XVThumbImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/XbmImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/XpmImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/_binary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/_imaging.cp38-win32.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/_imagingcms.cp38-win32.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/_imagingft.cp38-win32.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/_imagingmath.cp38-win32.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/_imagingmorph.cp38-win32.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/_imagingtk.cp38-win32.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/_tkinter_finder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/_version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/_webp.cp38-win32.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/PIL/features.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Pillow-7.1.2.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Pillow-7.1.2.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Pillow-7.1.2.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Pillow-7.1.2.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Pillow-7.1.2.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Pillow-7.1.2.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Pillow-7.1.2.dist-info/zip-safe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Admin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Admin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gglreg/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/gglreg/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gglreg/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/gglreg/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myfirstproject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myfirstproject/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfirstproject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myfirstproject/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/gglreg/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/file.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/gglreg/img/file.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/google.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/gglreg/img/google.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/gglreg/account.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/change_password.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/gglreg/change_password.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/change_password_done.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/gglreg/change_password_done.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/confirm.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/gglreg/confirm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/email_message.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/gglreg/email_message.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/expire.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/gglreg/expire.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/gglreg/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/gglreg/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/reset_pass.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/gglreg/reset_pass.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/reset_pass_complete.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/gglreg/reset_pass_complete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/reset_pass_confirm.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/gglreg/reset_pass_confirm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/reset_pass_msg.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/gglreg/reset_pass_msg.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/gglreg/signup.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,11 +242,15 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/myproject" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/blogapp" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Downloads\Stuff\Training\Django Project\myfirstproject\media\media" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Downloads\Stuff\Training\Django Project\myfirstproject\blogapp" />
       <recent name="C:\Users\Admin\Downloads\Stuff\Training\Django Project\myfirstproject\gglreg" />
     </key>
   </component>
@@ -88,7 +303,16 @@
       <updated>1589866600894</updated>
       <workItem from="1589866602087" duration="19402000" />
       <workItem from="1589948751467" duration="21714000" />
-      <workItem from="1590034656766" duration="25704000" />
+      <workItem from="1590034656766" duration="30290000" />
+      <workItem from="1590119648150" duration="10333000" />
+      <workItem from="1590244892594" duration="1576000" />
+      <workItem from="1590301441008" duration="6218000" />
+      <workItem from="1590381467696" duration="22459000" />
+      <workItem from="1590465749837" duration="21425000" />
+      <workItem from="1590553049796" duration="21038000" />
+      <workItem from="1590602661551" duration="1773000" />
+      <workItem from="1590639828414" duration="1526000" />
+      <workItem from="1590642570858" duration="14662000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,58 @@
+{% extends 'blogapp/base.html' %}
+
+{% block title %}
+    {{ post.title_tag }}
+{% endblock %}
+
+{% block content %}
+
+    <h1>{{ post.title }}</h1>
+    <small>By: {{ post.author.first_name }} {{ post.author.last_name }} - {{ post.post_date }}</small>
+        {% if user.is_authenticated %}
+            {% if user.id == post.author.id %}
+                <small> - <a href="{% url 'update_post' post.pk %}">(Edit)</a> - <a href="{% url 'delete_post' post.pk %}">(Delete)</a></small>
+            {% endif %}
+        {% endif %}
+    <br>
+    <hr>
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                {% if post.image1 %}
+                    <img src="{{ post.image1.url }}" alt="{{ post.title }}" width="100%" height="550px">
+                {% endif %}
+            </div>
+            <div class="carousel-item">
+                {% if post.image2 %}
+                    <img src="{{ post.image2.url }}" alt="{{ post.title }}" width="100%" height="550px">
+                {% else %}
+                    <img src="{{ post.image1.url }}" alt="{{ post.title }}" width="100%" height="550px">
+                {% endif %}
+            </div>
+            <div class="carousel-item">
+                {% if post.image3 %}
+                    <img src="{{ post.image3.url }}" alt="{{ post.title }}" width="100%" height="550px">
+                {% else %}
+                    <img src="{{ post.image1.url }}" alt="{{ post.title }}" width="100%" height="550px">
+                {% endif %}
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+
+    <hr>
+    {{ post.body|safe }}
+    <br><br>
+    <a href="{% url 'home' %}" class="btn btn-secondary">Back</a>
+    <br><br>
+{% endblock %}

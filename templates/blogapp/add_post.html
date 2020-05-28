@@ -1,0 +1,31 @@
+{% extends 'blogapp/base.html' %}
+
+{% block title %}
+    Create A New Blog Post
+{% endblock %}
+
+{% block content %}
+
+    {% if user.is_authenticated %}
+        <h1>Add Blog</h1>
+        <br><br>
+        <div class="form-group w-75">
+            <form method="POST" enctype="multipart/form-data">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <br>
+                <button class="btn btn-secondary">Post</button>
+            </form>
+        </div>
+
+        <script>
+            var name = "{{ user.id }}";
+            document.getElementById("who").value = name;
+        </script>
+
+    {% else %}
+        <br>
+        <h1>You need to be logged in to add any post!</h1>
+    {% endif %}
+
+{% endblock %}
