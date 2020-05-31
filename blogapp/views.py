@@ -1,9 +1,11 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
 from .models import Post, Category
 from .forms import PostForm, UpdateForm
-from django.urls import reverse_lazy
+from django.urls import reverse_lazy, reverse
 from django.core.paginator import Paginator, PageNotAnInteger, EmptyPage
+from django.db.models import Q
+from django.http import HttpResponse
 
 
 class HomeView(ListView):
@@ -17,6 +19,31 @@ class HomeView(ListView):
         context = super(HomeView, self).get_context_data(*args, **kwargs)
         context["cat_menu"] = cat_menu
         return context
+
+
+def search(request):
+    template_name = 'blogapp/blog_home.html'
+    query = request.GET.get('q')
+    if query:
+        results = Post.objects.filter(Q(title__icontains=query) | Q(body__icontains=query)).order_by('-post_date')
+        if results:
+            pass
+        else:
+            return HttpResponse("<h1 style='color:red; text-align:center; font-size:50px'>Error 404!<br>Page not found</h1>")
+    else:
+        results = Post.objects.all()
+    page = request.GET.get('page', 1)
+    paginator = Paginator(results, 4)
+    posts = paginator.page(page)
+    '''
+    try:
+        posts = paginator.page(page)
+    except PageNotAnInteger:
+        posts = paginator.page(1)
+    except EmptyPage:
+        posts = paginator.page(paginator.num_pages)
+    '''
+    return render(request, template_name, {'posts': posts, 'query': query, 'results': results})
 
 
 def CategoryView(request, cats):
